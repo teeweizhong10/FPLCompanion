@@ -25,6 +25,7 @@ struct FPL_CompanionApp: App {
 
     var body: some Scene {
         WindowGroup {
+            
             ContentView()
         }
         .modelContainer(sharedModelContainer)
